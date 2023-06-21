@@ -1,0 +1,90 @@
+
+.stack-cat{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+div > button.skills {
+  margin: 0 auto;
+}
+
+div > .button-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+div.button-group {
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.skills {
+  appearance: button;
+  background-color: #10273A;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+ }
+
+ .skills:after {
+  background-clip: padding-box;
+  background-color: #2f4f6a;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+ }
+
+ .skills:main, .skills:focus {
+  user-select: auto;
+ }
+
+ .skills:hover:not(:disabled) {
+  filter: brightness(1.1);
+ }
+
+ .skills:disabled {
+  cursor: auto;
+ }
+
+ .skills:active:after {
+  border-width: 0 0 0px;
+ }
+
+ .skills:active {
+  padding-bottom: 10px;
+ }

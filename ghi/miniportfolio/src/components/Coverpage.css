@@ -1,0 +1,23 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+#coverpage{
+    background-image:url('https://wallpapercrafter.com/desktop/239632-water-fish-koi-and-pond-hd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+    opacity: 0.8;
+    text-align: left;
+}
+
+
+.direct-contact-container{
+    display: inline-flex;
+}
+
+.direct-contact-container img {
+    margin-right: 20px;
+  }
