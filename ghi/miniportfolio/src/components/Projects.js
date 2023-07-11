@@ -17,7 +17,7 @@ function Projects(){
         <div data-aos="fade-right" data-aos-duration="1500" className="gap-4 card-group">
 
             <div className="card card">
-            <a href="https://gitlab.com/dahnaahn16/car-car-project-beta" target="_blank" rel="noreferrer">
+            <a href="https://github.com/dahnaahn3/CarCar" target="_blank" rel="noreferrer">
                 <img className="card-img-top" src={project2} />
             </a>
             <div className="card-body">

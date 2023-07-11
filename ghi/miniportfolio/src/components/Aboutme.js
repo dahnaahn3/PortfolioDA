@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
-
 function Aboutme() {
 
   useEffect(() => {
@@ -32,7 +31,7 @@ function Aboutme() {
             <button className="interest"> <img src="https://img.icons8.com/ios-glyphs/20/null/bulldog.png"/> French Bulldogs </button>
             <button className="interest"> <img src="https://img.icons8.com/ios/20/null/tattoo-machine.png"/> Tattoos </button>
             <button className="interest"> <img src="https://img.icons8.com/ios-filled/20/null/pet.png"/> Dog Training </button>
-            <button className="interest"> <img src="https://img.icons8.com/ios/20/null/dumbbell--v1.png"/> Gymming </button>
+            <button className="interest"> <img src="https://img.icons8.com/ios/20/null/dumbbell--v1.png"/> Fitness </button>
             <button className="interest"> <img src="https://img.icons8.com/sf-regular/25/null/sneakers.png"/> Sneakers </button>
 
           </div>
