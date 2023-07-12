@@ -4,16 +4,15 @@ import 'aos/dist/aos.css';
 import './Skillz.css'
 
 function Skillz(){
-
 useEffect(() => {
     AOS.init();
     }, [])
 
     return(
-        <div>
-
+        <>
+        <div id="Skillz" style={{marginTop:"2rem"}}>
             <div className="h-100 d-flex align-items-center justify-content-center" >
-            <h1 style={{fontFamily:'Silkscreen', fontSize: "4rem", marginBottom:"3rem"}}>Tech Stack</h1>
+            <h1 style={{fontFamily:'Silkscreen', fontSize: "4.5rem", marginBottom:"2rem", marginTop:"2rem"}}>Tech Stack</h1>
             </div>
             <body>
             <div class="scontainer">
@@ -55,6 +54,7 @@ useEffect(() => {
             </div>
             </body>
         </div>
+        </>
     )
 }
 

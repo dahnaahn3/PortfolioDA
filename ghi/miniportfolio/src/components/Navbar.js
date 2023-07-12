@@ -19,9 +19,8 @@ return (
         </li>
 
         <li className="nav-item">
-            <a className="navbar-brand mb-0" style={{color: "white"}} href="#Skills">Skills</a>
+            <a className="navbar-brand mb-0" style={{color: "white"}} href="#Skillz">Skills</a>
         </li>
-
 
 
         <li className="nav-item">
