@@ -4,7 +4,7 @@ body{
 }
 
 #coverpage{
-    background-image:url('https://wallpapercrafter.com/desktop/239632-water-fish-koi-and-pond-hd.jpg');
+    background-image: url("images/koicover.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,9 +1,11 @@
 
-import project2 from "./images/project2.gif"
 import './Projects.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import carcar from "./images/carcar.png"
+import pawgress from "./images/pawgress.png"
+import wardrobify from "./images/wardrobify.png"
 
 function Projects(){
     useEffect(() => {
@@ -18,7 +20,7 @@ function Projects(){
 
             <div className="card card">
             <a href="https://github.com/dahnaahn3/CarCar" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={project2} />
+                <img className="card-img-top" src={carcar} />
             </a>
             <div className="card-body">
                 <div className="card-title card-title h5" style={{color: "black"}}>CarCar App</div>
@@ -31,7 +33,7 @@ function Projects(){
 
             <div className="card card">
             <a href="https://pawgress.gitlab.io/pawgress/" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={project2} />
+                <img className="card-img-top" src={pawgress} />
             </a>
             <div className="card-body">
                 <div className="card-title card-title h5" style={{color: "black"}}>Pawgress</div>
@@ -44,14 +46,14 @@ function Projects(){
 
             <div className="card card">
             <a href="https://gitlab.com/dahnaahn16/project-alpha-apr" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={project2} />
+                <img className="card-img-top" src={wardrobify} />
             </a>
             <div className="card-body">
-                <div className="card-title card-title h5" style={{color: "black"}}>Task It!</div>
-                <p className="card-text card-text" style={{color: "black"}}>Task tracker application to log and record completed and uncompleted tasks for a specified users</p>
+                <div className="card-title card-title h5" style={{color: "black"}}>Wardrobify</div>
+                <p className="card-text card-text" style={{color: "black"}}>Organization application to keep optimal tracking of items in user's closet</p>
             </div>
             <div className="card-footer card-footer" style={{color: "black"}}>
-                <small>Django, Python, PostgresSQL, HTML, CSS</small>
+                <small>Django, Python, Microservices, HTML, CSS, PostgresSQL</small>
             </div>
             </div>
 
