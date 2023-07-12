@@ -1,0 +1,68 @@
+.scontainer {
+    position: center;
+    height: 300px;
+    width: 1400px;
+    top: 60px;
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .scard {
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    background-color:#e3eef8;
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+    position: relative;
+    margin-left: 10px;
+  }
+
+
+  .scard:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+
+  .scard:hover ~ .scard {
+    position: relative;
+    top: 20px;
+    transition: 0.4s ease-out;
+  }
+
+  .stitle {
+    color: rgb(3, 51, 79);
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 5px;
+
+  }
+
+  .iconss {
+    height:80px;
+
+  }
+
+  .frontendgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .backendgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .toolgrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    margin-top: 50px;
+  }

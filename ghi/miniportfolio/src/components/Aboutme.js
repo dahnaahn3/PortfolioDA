@@ -15,7 +15,7 @@ function Aboutme() {
     return (
       <div id="Aboutme" style={{display: 'flex', alignItems: 'center'}}>
         <div  style={{flex: 1}}>
-          <h1 data-aos="fade-right" data-aos-duration="1500" style={{marginTop: 0, fontFamily: "Silkscreen"}}>About Me</h1>
+          <h1 data-aos="fade-right" data-aos-duration="1500" style={{marginTop: 0, fontFamily: "Silkscreen", fontSize: "3rem"}}>About Me</h1>
           <br />
           <p data-aos="fade-right" data-aos-duration="1500" >Hello! My name is Dahna Ahn. I am a full stack software engineer with experience
             in web development and software testing. I've always been an 'out of the box thinker' and

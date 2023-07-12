@@ -14,7 +14,7 @@ function Projects(){
     return(
         <>
         <div className="m-3" id="Projects">
-        <h1 className="header mb-3" style={{paddingBottom: "3rem", fontFamily: "Silkscreen"}}>My Projects</h1>
+        <h1 className="header" style={{paddingBottom: "3rem", fontFamily: "Silkscreen", fontSize: "4rem"}}>My Projects</h1>
         <section>
         <div data-aos="fade-right" data-aos-duration="1500" className="gap-4 card-group">
 
