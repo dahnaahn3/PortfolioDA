@@ -20,7 +20,7 @@ function Projects(){
 
             <div className="card card">
             <a href="https://github.com/dahnaahn3/CarCar" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={carcar} />
+                <img className="card-img-top" src={carcar} alt=""/>
             </a>
             <div className="card-body">
                 <div className="card-title card-title h5" style={{color: "black"}}>CarCar App</div>
@@ -33,7 +33,7 @@ function Projects(){
 
             <div className="card card">
             <a href="https://pawgress.gitlab.io/pawgress/" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={pawgress} />
+                <img className="card-img-top" src={pawgress} alt=""/>
             </a>
             <div className="card-body">
                 <div className="card-title card-title h5" style={{color: "black"}}>Pawgress</div>
@@ -46,7 +46,7 @@ function Projects(){
 
             <div className="card card">
             <a href="https://gitlab.com/dahnaahn16/project-alpha-apr" target="_blank" rel="noreferrer">
-                <img className="card-img-top" src={wardrobify} />
+                <img className="card-img-top" src={wardrobify} alt=""/>
             </a>
             <div className="card-body">
                 <div className="card-title card-title h5" style={{color: "black"}}>Wardrobify</div>

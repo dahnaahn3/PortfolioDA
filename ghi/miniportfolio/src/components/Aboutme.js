@@ -28,11 +28,11 @@ function Aboutme() {
           <h1 data-aos="fade-right" data-aos-duration="1500" style={{fontFamily: "Silkscreen"}}>Hobbies/Interests</h1>
           <br />
           <div data-aos="fade-right" data-aos-duration="1500"  style={{marginBottom: "3rem", display: "flex", alignItems: "center"}}>
-            <button className="interest"> <img src="https://img.icons8.com/ios-glyphs/20/null/bulldog.png"/> French Bulldogs </button>
-            <button className="interest"> <img src="https://img.icons8.com/ios/20/null/tattoo-machine.png"/> Tattoos </button>
-            <button className="interest"> <img src="https://img.icons8.com/ios-filled/20/null/pet.png"/> Dog Training </button>
-            <button className="interest"> <img src="https://img.icons8.com/ios/20/null/dumbbell--v1.png"/> Fitness </button>
-            <button className="interest"> <img src="https://img.icons8.com/sf-regular/25/null/sneakers.png"/> Sneakers </button>
+            <button className="interest"> <img alt="" src="https://img.icons8.com/ios-glyphs/20/null/bulldog.png"/> French Bulldogs </button>
+            <button className="interest"> <img alt="" src="https://img.icons8.com/ios/20/null/tattoo-machine.png"/> Tattoos </button>
+            <button className="interest"> <img alt="" src="https://img.icons8.com/ios-filled/20/null/pet.png"/> Dog Training </button>
+            <button className="interest"> <img alt="" src="https://img.icons8.com/ios/20/null/dumbbell--v1.png"/> Fitness </button>
+            <button className="interest"> <img alt="" src="https://img.icons8.com/sf-regular/25/null/sneakers.png"/> Sneakers </button>
 
           </div>
 

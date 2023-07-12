@@ -14,13 +14,13 @@ function Coverpage(){
 
                 <div className="direct-contact-container">
                 <a href="mailto:dahnaahn16@gmail.com" target="_blank" rel="noreferrer">
-                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/circled-envelope.png"/>
+                    <img alt="" src="https://img.icons8.com/ios-filled/50/FFFFFF/circled-envelope.png"/>
                 </a>
                 <a href="https://www.linkedin.com/in/dahnaahn16" target="_blank" rel="noreferrer">
-                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png"/>
+                    <img alt="" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png"/>
                 </a>
                 <a href="https://gitlab.com/dahnaahn16" target="_blank" rel="noreferrer">
-                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/gitlab.png"/>
+                    <img alt="" src="https://img.icons8.com/ios-filled/50/FFFFFF/gitlab.png"/>
                 </a>
                 </div>
             </div>
