@@ -33,7 +33,7 @@ function Aboutme() {
             <button className="interest"> <img alt="" src="https://img.icons8.com/ios-filled/20/null/pet.png"/> Dog Training </button>
             <button className="interest"> <img alt="" src="https://img.icons8.com/ios/20/null/dumbbell--v1.png"/> Fitness </button>
             <button className="interest"> <img alt="" src="https://img.icons8.com/sf-regular/25/null/sneakers.png"/> Sneakers </button>
-
+<p> this is about me </p>
           </div>
 
             <button className="dbutton">
